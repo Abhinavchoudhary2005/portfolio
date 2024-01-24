@@ -1,0 +1,103 @@
+.experience-container {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-1-skill {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.title-2-skill {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: black;
+}
+
+p {
+  color: rgb(85, 85, 85);
+  font-size: 1.2rem;
+}
+
+.boxes-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.box-skill {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 28.4rem;
+}
+
+h1 {
+  color: rgb(85, 85, 85);
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  width: fit-content;
+}
+
+.tick {
+  margin-top: -0.3rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.container {
+  display: flex;
+}
+
+.subscript {
+  margin-top: -0.7rem;
+  width: fit-content;
+}
+
+.skill {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.skill-list {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .experience-container {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .experience-container {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .experience-container {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .experience-container {
+    transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .experience-container {
+    transform: scale(0.5);
+  }
+}

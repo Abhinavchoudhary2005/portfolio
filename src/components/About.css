@@ -1,0 +1,90 @@
+.about-about {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-1-about {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.title-2-about {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: black;
+}
+
+p {
+  color: rgb(68, 68, 68);
+  font-size: 1.2rem;
+}
+
+.boxes-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.box-about {
+  padding: 1rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 25rem;
+}
+
+.achivement {
+  width: 5%;
+}
+
+.people {
+  transform: scale(1.5);
+  width: 5%;
+}
+
+.detail {
+  text-align: left;
+  margin-top: 4rem;
+  width: 52rem;
+}
+
+@media screen and (max-width: 950px) {
+  .about-about {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-about {
+    transform: scale(0.85);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-about {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about-about {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .boxes-about {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .boxes-about {
+    transform: scale(0.8);
+  }
+}
